@@ -21,6 +21,15 @@ STEP 5: Remove outliers using IQR
 STEP 6: Use zscore of to remove outliers
 
 # Coding and Output
-            <<include your coding and its corressponding output screen shots here>>
+```
+import pandas as pd
+import numpy as np
+data=pd.read_csv('SAMPLEIDS.csv')
+data
+<img width="1378" height="712" alt="image" src="https://github.com/user-attachments/assets/b3722124-3f34-4348-8c59-ce882bda4fd8" />
+
+
+            
+            
 # Result
           <<include your Result here>>
