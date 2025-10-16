@@ -115,7 +115,8 @@ data.fillna({'REGNO':0, 'NAME':'PRAVEEN'})
 
  ## OUTPUT
  
- <img width="917" height="722" alt="Screenshot 2025-09-17 154926" src="https://github.com/user-attachments/assets/41984e48-042b-4237-b242-12c2e72637fa" />
+<img width="1168" height="802" alt="image" src="https://github.com/user-attachments/assets/8d5ba248-478d-4881-9aa3-1fb48dbfc874" />
+
 
 
 
