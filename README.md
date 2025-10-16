@@ -38,74 +38,85 @@ data.head(4)
 ```
 
 ## OUTPUT
- <img width="899" height="171" alt="Screenshot 2025-09-17 153220" src="https://github.com/user-attachments/assets/ed3ef12e-d67d-4402-b869-c7a84132c1a1" />
+<img width="1448" height="313" alt="Screenshot 2025-09-17 153049" src="https://github.com/user-attachments/assets/025e191d-7a25-45b2-94fd-b669ed86f132" />
 
- 
+```
 data.tail(7)
+```
 
  ## OUTPUT
-<img width="894" height="257" alt="Screenshot 2025-09-17 153426" src="https://github.com/user-attachments/assets/76e00a5f-4c8d-4ec0-bc7d-8a3298f0d6ca" />
 
+<img width="1479" height="403" alt="Screenshot 2025-09-17 153109" src="https://github.com/user-attachments/assets/ece2a319-9338-47c1-8c44-cf110505e572" />
 
-
+```
 data.isnull()
+```
 
 ## OUTPUT
-<img width="763" height="693" alt="Screenshot 2025-09-17 153528" src="https://github.com/user-attachments/assets/5819114e-67c3-4685-be37-39e2b14487a2" />
 
+<img width="1311" height="640" alt="Screenshot 2025-09-17 153614" src="https://github.com/user-attachments/assets/3682c2ee-f199-4ef5-a93e-cd4d42e4a6ed" />
 
-data.notnull()
-
-## OUTPUT
- <img width="776" height="712" alt="Screenshot 2025-09-17 153717" src="https://github.com/user-attachments/assets/a7af838d-7e2e-49f2-b47d-852fe7ac29da" />
-
-
+```
 data.isnull().sum()
+```
 
 ## OUTPUT
-<img width="149" height="286" alt="Screenshot 2025-09-17 153934" src="https://github.com/user-attachments/assets/d463e27f-e8f8-4212-b96a-426422d382d5" />
+
+<img width="1311" height="640" alt="Screenshot 2025-09-17 153614" src="https://github.com/user-attachments/assets/51c453f3-02c1-4c5e-8165-f3fc4b8e24d7" />
 
 
+```
 data.isnull().any()
+```
 
 ## OUTPUT
-<img width="180" height="289" alt="Screenshot 2025-09-17 153959" src="https://github.com/user-attachments/assets/8f257f06-cf75-466b-aff7-dd6279a498a9" />
 
+<img width="1455" height="637" alt="Screenshot 2025-09-17 153642" src="https://github.com/user-attachments/assets/3f70c91f-40e4-4e29-a750-bb061d2e8743" />
+
+```
 
 data.dropna(axis=1)
+```
 
 ## OUTPUT
-<img width="266" height="719" alt="Screenshot 2025-09-17 154026" src="https://github.com/user-attachments/assets/90b015d0-9665-4338-b591-a8f219ae0174" />
 
+<img width="580" height="456" alt="Screenshot 2025-09-17 153721" src="https://github.com/user-attachments/assets/ea0035cf-bbcc-4210-aeab-58101167f6d2" />
 
+```
 data.dropna(axis=0)
+```
 
 ## OUTPUT
-<img width="914" height="454" alt="Screenshot 2025-09-17 154206" src="https://github.com/user-attachments/assets/bd85c2c0-fbfe-4d86-a082-38bcf075c2d8" />
 
 
+<img width="1418" height="620" alt="Screenshot 2025-09-17 154042" src="https://github.com/user-attachments/assets/47adb8aa-a6f5-4db1-9175-21fcbab736c4" />
+
+```
 data.fillna(0)
+```
 
 ## OUTPUT
-<img width="904" height="721" alt="Screenshot 2025-09-17 154251" src="https://github.com/user-attachments/assets/0674cb67-397a-4372-b173-c3a493bd8f57" />
+
+<img width="1311" height="695" alt="Screenshot 2025-09-17 154430" src="https://github.com/user-attachments/assets/188733b8-3905-4f8a-962a-27737d07be3c" />
 
 
+```
 data.fillna(method="ffill")
+```
 
 ## OUTPUT
-<img width="920" height="780" alt="Screenshot 2025-09-17 154748" src="https://github.com/user-attachments/assets/c233d980-0460-4f25-a81c-52dab0bcfbc6" />
 
 
-data.bfill()
+<img width="1445" height="702" alt="Screenshot 2025-09-17 154615" src="https://github.com/user-attachments/assets/21cc2545-1c0b-402a-9c7f-fd465845a5ce" />
 
-## OUTPUT
-<img width="903" height="716" alt="Screenshot 2025-09-17 154822" src="https://github.com/user-attachments/assets/d4253ac5-851b-409a-b4c1-07be43a56c19" />
-
- 
+```
 data.fillna({'REGNO':0, 'NAME':'PRAVEEN'})
+```
 
  ## OUTPUT
+ 
  <img width="917" height="722" alt="Screenshot 2025-09-17 154926" src="https://github.com/user-attachments/assets/41984e48-042b-4237-b242-12c2e72637fa" />
+
 
 
 ir=pd.read_csv("/content/iris.csv")
@@ -113,7 +124,7 @@ ir
 
 ## OUTPUT
 
-<img width="553" height="435" alt="Screenshot 2025-09-17 155843" src="https://github.com/user-attachments/assets/0c586df8-9716-435a-8a0c-5d911b5f3ccb" />
+
 
 ir.describe()
 
