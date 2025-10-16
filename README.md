@@ -117,55 +117,68 @@ data.fillna({'REGNO':0, 'NAME':'PRAVEEN'})
  
 <img width="1168" height="802" alt="image" src="https://github.com/user-attachments/assets/8d5ba248-478d-4881-9aa3-1fb48dbfc874" />
 
-
-
-
+```
 ir=pd.read_csv("/content/iris.csv")
 ir
+```
 
 ## OUTPUT
+<img width="826" height="601" alt="image" src="https://github.com/user-attachments/assets/8357a55b-1da3-45d5-84fe-80e6f8887c94" />
 
-
-
+```
 ir.describe()
+```
 
 ## OUTPUT
 
-<img width="488" height="307" alt="Screenshot 2025-09-17 155903" src="https://github.com/user-attachments/assets/c296f442-e583-4138-8e5e-03768e67144c" />
 
- 
+<img width="798" height="435" alt="image" src="https://github.com/user-attachments/assets/0cc961b8-1eba-4888-a7f8-8dedc0ee1d00" />
+
+``` 
 import seaborn as sns
 sns.boxplot(x="sepal_width",data=ir)
+```
 
 ## OUTPUT
 
-<img width="670" height="571" alt="Screenshot 2025-09-17 160001" src="https://github.com/user-attachments/assets/83effa84-91e4-4c46-a1d8-0657206b8260" />
+<img width="1072" height="670" alt="Screenshot 2025-09-17 155538" src="https://github.com/user-attachments/assets/6f171343-3469-42e7-be5e-4213317935ee" />
 
+```
  q1=ir.sepal_width.quantile(0.25)
  q3=ir.sepal_width.quantile(0.75)
  iqr=q3-q1
  print(iqr)
+```
 
 ## OUTPUT
-<img width="342" height="136" alt="Screenshot 2025-09-17 160132" src="https://github.com/user-attachments/assets/06099d83-f624-4bb4-b28a-437626398d06" />
+<img width="1488" height="200" alt="Screenshot 2025-09-17 155612" src="https://github.com/user-attachments/assets/7ba7b38c-bdf2-46aa-891c-63d7b09f32e1" />
 
+```
 rid=ir[((ir.sepal_width<(q1-1.5*iqr))|(ir.sepal_width>(q3+1.5*iqr)))]
 rid['sepal_width']
+```
 
 ## OUTPUT
-<img width="689" height="177" alt="Screenshot 2025-09-17 160201" src="https://github.com/user-attachments/assets/fea9aa28-c371-4a5c-8328-0ae0dd141c6d" />
+<img width="1373" height="340" alt="Screenshot 2025-09-17 155710" src="https://github.com/user-attachments/assets/6a69641f-3155-4d0a-8177-d319d13bb919" />
 
+
+```
  rid=ir[~((ir.sepal_width<(q1-1.5*iqr))|(ir.sepal_width>(q3+1.5*iqr)))]
  rid
+```
 
  ## OUTPUT
- <img width="718" height="499" alt="Screenshot 2025-09-17 160222" src="https://github.com/user-attachments/assets/134ac4bf-68a2-49b8-9699-abfe7c48b2a2" />
+<img width="1035" height="647" alt="Screenshot 2025-09-17 160239" src="https://github.com/user-attachments/assets/ed7492ae-a940-4d37-905a-ed7dfba10dcc" />
 
+
+```
 rid=ir[((ir.sepal_width>(q1-1.5*iqr))&(ir.sepal_width<(q3+1.5*iqr)))]
 rid['sepal_width']
+```
 
 ## OUTPUT
-<img width="687" height="326" alt="Screenshot 2025-09-17 160306" src="https://github.com/user-attachments/assets/74d6bf03-18ba-47c2-8ff3-c598cf35700d" />
+<img width="1237" height="634" alt="Screenshot 2025-09-17 160402" src="https://github.com/user-attachments/assets/ce525af0-5192-4dc1-9f00-2a4c9695fd46" />
+
 
  ```
  import numpy as np
@@ -175,7 +188,8 @@ rid['sepal_width']
 ```
 
  ## OUTPUT
- <img width="502" height="372" alt="Screenshot 2025-09-17 160336" src="https://github.com/user-attachments/assets/80b9a8e7-d9f4-4eb9-88e1-297801a7604c" />
+<img width="1473" height="714" alt="Screenshot 2025-09-17 160526" src="https://github.com/user-attachments/assets/4c864a92-0be7-4713-9928-a298d0630ecc" />
+
 
 
  
