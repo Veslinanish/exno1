@@ -166,10 +166,12 @@ rid['sepal_width']
 ## OUTPUT
 <img width="687" height="326" alt="Screenshot 2025-09-17 160306" src="https://github.com/user-attachments/assets/74d6bf03-18ba-47c2-8ff3-c598cf35700d" />
 
+ ```
  import numpy as np
  import scipy.stats as stats
  z=np.abs(stats.zscore(ir.sepal_width))
  z
+```
 
  ## OUTPUT
  <img width="502" height="372" alt="Screenshot 2025-09-17 160336" src="https://github.com/user-attachments/assets/80b9a8e7-d9f4-4eb9-88e1-297801a7604c" />
