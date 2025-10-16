@@ -30,7 +30,8 @@ data
 
 ## OUTPUT 
 
-<img width="892" height="706" alt="Screenshot 2025-09-17 152849" src="https://github.com/user-attachments/assets/ec354a6d-363e-429f-b9c7-47c8f6f26b9c" />
+<img width="1210" height="800" alt="Screenshot 2025-09-17 152957" src="https://github.com/user-attachments/assets/6bd15562-b4a7-497e-8de0-0447ec5f52f6" />
+
 
 ```
 data.head(4)
