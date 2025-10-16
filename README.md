@@ -29,6 +29,7 @@ data
 ```
 
 ## OUTPUT 
+
 <img width="892" height="706" alt="Screenshot 2025-09-17 152849" src="https://github.com/user-attachments/assets/ec354a6d-363e-429f-b9c7-47c8f6f26b9c" />
 
 ```
